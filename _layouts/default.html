@@ -51,20 +51,20 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand" href="/index.html">
-                              <img src="/img/iEvolve.png" alt="Logo", width="120" height="50">
+                          <a class="navbar-brand" href="{{site.url}}/index.html">
+                              <img src="{{site.url}}/img/iEvolve.png" alt="Logo", width="120" height="50">
                           </a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                           <ul class="nav navbar-nav navbar-right">
-                            <li {% if page.url == "/index.html" %}class="active"{% endif %}><a href="/index.html">Home</a></li>
-                            <li {% if page.url == "/About_Me.html" %}class="active"{% endif %}><a href="/About_Me.html">About Me</a></li>
-                            <li {% if page.url == "/data_engineering/page_1/" %}class="active"{% endif %}><a href="/data_engineering/page_1/">Data Engineering</a></li>
-                            <li {% if page.url == "/probability/page_1/" %}class="active"{% endif %}><a href="/probability/page_1/">Probability & Statistics</a></li>
-                            <li {% if page.url == "/ml_dl/page_1/" %}class="active"{% endif %}><a href="/ml_dl/page_1/">Machine & Deep Learning</a></li>
-                            <li {% if page.url == "/industry4/page_1/" %}class="active"{% endif %}><a href="/industry4/page_1/">Industry 4.0</a></li>
+                            <li {% if page.url == "{{site.url}}/index.html" %}class="active"{% endif %}><a href="{{site.url}}/index.html">Home</a></li>
+                            <li {% if page.url == "{{site.url}}/About_Me.html" %}class="active"{% endif %}><a href="{{site.url}}/About_Me.html">About Me</a></li>
+                            <li {% if page.url == "{{site.url}}/data_engineering/page_1/" %}class="active"{% endif %}><a href="{{site.url}}/data_engineering/page_1/">Data Engineering</a></li>
+                            <li {% if page.url == "{{site.url}}/probability/page_1/" %}class="active"{% endif %}><a href="{{site.url}}/probability/page_1/">Probability & Statistics</a></li>
+                            <li {% if page.url == "{{site.url}}/ml_dl/page_1/" %}class="active"{% endif %}><a href="{{site.url}}/ml_dl/page_1/">Machine & Deep Learning</a></li>
+                            <li {% if page.url == "{{site.url}}/industry4/page_1/" %}class="active"{% endif %}><a href="{{site.url}}/industry4/page_1/">Industry 4.0</a></li>
                           </ul>
                         </div><!-- /.navbar-collapse -->
                       </div><!-- /.container-fluid -->
@@ -85,11 +85,11 @@
               <div class="col-md-12">
                 <div class="footer-manu">
                   <ul>
-                    <li><a href="/About_Me.html">About Me</a></li>
-                    <li><a href="/data_engineering/page_1/">Data Engineering</a></li>
-                    <li><a href="/probability/page_1/">Probability & Statistics</a></li>
-                    <li><a href="/ml_dl/page_1/">Machine & Deep Learning</a></li>
-                    <li><a href="/industry4/page_1/">Industry 4.0</a></li>
+                    <li><a href="{{site.url}}/About_Me.html">About Me</a></li>
+                    <li><a href="{{site.url}}/data_engineering/page_1/">Data Engineering</a></li>
+                    <li><a href="{{site.url}}/probability/page_1/">Probability & Statistics</a></li>
+                    <li><a href="{{site.url}}/ml_dl/page_1/">Machine & Deep Learning</a></li>
+                    <li><a href="{{site.url}}/industry4/page_1/">Industry 4.0</a></li>
                   </ul>
                 </div>
 
