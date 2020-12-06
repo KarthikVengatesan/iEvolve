@@ -22,7 +22,7 @@ title: iEvolve
 email: karthikvlbmech@gmail.com
 description: "iEvolve my Personal blog on how I Evolved over the period of Indusrial Evolution"
 baseurl: /ievolve # the subpath of your site, e.g. /blog
-url: "https://karthikvengatesan.github.io/iEvolve/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://karthikvengatesan.github.io/iEvolve/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 paginate: 1
